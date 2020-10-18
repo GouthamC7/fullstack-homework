@@ -7,3 +7,44 @@ body {
 a {
   color: rgb(0, 96, 96);
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px solid black;
+}
+
+.gallery img{
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+}
+
+h3 {
+  margin-left: 5%;
+}
+
+.link {
+  color: rgb(0, 162, 255);
+  cursor: pointer;
+} 
+
+.des {
+  padding: 15px;
+  text-align: left;
+}
+
+.responsive {
+  padding: 0 6px;
+  margin-left: 5px;
+  float: left;
+  width: 32%;
+  border: 1px solid black;
+}
+
+
+
+
+

@@ -15,3 +15,25 @@
 }
 
 /* Add your code here */
+
+.flex-container {
+  display: flex;
+  height: 300px;
+  flex-flow: wrap-reverse; 
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+
+.item1{
+  order:10
+}
+
+
+
+/* .item8 {
+  order:-7
+}
+
+.item5 {
+  order: -4
+} */

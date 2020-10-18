@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(0, 0, 0, 0.726)
+}
+
+.formdiv {
+    width: 40%;
+    background-color: white;
+    margin-left: 30%;
+}
+
+form {
+    width: 80%;
+    margin-left: 10%;
+}
+
+h3 {
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 15%;
+}
+button {
+    width: 49%;
+}
+
+label {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .formdiv {
+      width: 70%;
+      margin-left: 10%;
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .formdiv {
+      width: 90%;
+      margin-left: 5%;
+    }
+  }

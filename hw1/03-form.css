@@ -1,9 +1,77 @@
 body {
   background-color: rgb(0, 78, 78);
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #ccc;
+  /*color: #ccc;*/
 }
 
+.container {
+  width: 36%;
+  margin-left: 32%;
+  text-align: center;
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 5px;
+}
+.form {
+  text-align: left;
+  margin-left: 15%;
+}
+
+#name {
+  width: 80%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+#email {
+  width: 80%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+#news {
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+#btn {
+  width: 80%;
+  padding: 4px 4px;
+  margin-bottom: 10%;
+  background-color: rgb(0, 78, 78);
+  color: white;
+}
+
+h2 {
+  padding-top: 2%;
+  color: rgb(0, 78, 78);;
+}
+
+label {
+  padding-top: 20px;
+}
+
+textarea {
+  width: 80%;
+}
+
+span {
+  color: rgb(0, 78, 78);;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
 /* Colors used include:
     - #aaa;
     - #006060;
