@@ -12,9 +12,6 @@ a {
   box-sizing: border-box;
 }
 
-.container {
-  border: 1px solid black;
-}
 
 .gallery img{
   width: 90%;
@@ -43,6 +40,7 @@ h3 {
   width: 32%;
   border: 1px solid black;
 }
+
 
 
 

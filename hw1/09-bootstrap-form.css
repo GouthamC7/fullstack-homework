@@ -3,15 +3,9 @@ body {
 }
 
 .formdiv {
-    width: 40%;
     background-color: white;
-    margin-left: 30%;
 }
 
-form {
-    width: 80%;
-    margin-left: 10%;
-}
 
 h3 {
     padding-top: 10px;
@@ -25,17 +19,3 @@ button {
 label {
     font-weight: bold;
 }
-
-@media screen and (max-width: 768px) {
-    .formdiv {
-      width: 70%;
-      margin-left: 10%;
-    }
-  }
-  
-  @media screen and (max-width: 414px) {
-    .formdiv {
-      width: 90%;
-      margin-left: 5%;
-    }
-  }
