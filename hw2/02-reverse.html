@@ -10,7 +10,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
     />
   </head>
-  <body class="bg-dark">
+  <body class="bg-dark" onsubmit="print(event)">
     <form class="bg-light border rounded w-50 mx-auto mt-5 p-3">
       <h2 class="mt-2 mb-4">Reverse</h2>
       <div class="form-group w-50">
@@ -20,6 +20,8 @@
       <div class="form-group mt-4">
         <input type="submit" class="btn btn-info" value="Reverse" />
       </div>
+      <p id="error" style="display: none;">Number should contain 8 digits</p>
+      <p id="success" style="display: none;">Result: <span id="result"></span></p>
     </form>
     <script src="02-reverse.js"></script>
   </body>
