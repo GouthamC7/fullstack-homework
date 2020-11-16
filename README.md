@@ -40,5 +40,5 @@ navigate back to my-app and run 'npm start'
 
 ### Exrecise 7
 
-navigate to 07-maps\google-maps-nearby\work
-open index.html inside work folder
+navigate to 07-maps\google-maps-nearby
+open index.html inside that folder
