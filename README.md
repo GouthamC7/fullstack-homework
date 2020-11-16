@@ -1,31 +1,44 @@
-## Webdev Exercises
+Instructions to run exercises
 
-### Assignment 1 - HTML and CSS
-- Card exercise
-- Navbar exercise
-- Form exercise
-- Flexbox exercise
-- Flexbox exercise
-- CSS Grid exercise
-- CSS Grid exercise
-- Bootstrap Grid exercise
-- Bootstrap Form exercise
+### navigate to package.json and run npm install to download modules
 
-### Assignment 2 - JavaScript
-- Fizzbuzz exercise
-- Reverse exercise
-- Form exercise
-- Events exercise
-- Rest Countries exercise
-- PokeAPI exercise
+### Excercise 1
 
-### Assignment 3 - Node, Express, and Frameworks
-- Node routes exercise
-- Node URL parsing exercise
-- Express form submission exercise
-- Espress sessions exercise
-- Templating engine exercise
-- Frameworks / tutorials
+navigate to hw3 folder
+run node 01-node-routes.js
+open browser and navigate to localhost:5000
 
-Check D2L or Drive for more details on each assignment
+### Excercise 2
 
+navigate to hw3 folder
+run node 02-node-url.js
+open browser and navigate to localhost:5000
+
+### Excercise 3
+
+navigate to hw3 folder
+run node 03-form.js
+open browser and navigate to localhost:5000/
+
+### Excercise 4
+
+navigate to hw3 folder
+run node 04-sessions.js
+open browser and navigate to localhost:5000/
+
+### Excercise 5
+
+navigate to hw3 folder
+run node 05-template.js
+open browser and navigate to localhost:5000/
+
+### Excercise 6
+
+navigate to package.json inside 06-react folder
+run npm install to download the modules
+navigate back to my-app and run 'npm start'
+
+### Exrecise 7
+
+navigate to 07-maps\google-maps-nearby\work
+open index.html inside work folder

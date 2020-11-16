@@ -3,9 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+  background-color: rgba(0, 0, 0, 0.726);
+}
+
+.formdiv {
+  background-color: white;
+}
+
+h3 {
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 15%;
+}
+button {
+  width: 49%;
+}
+
+label {
+  font-weight: bold;
+}
+    </style>
     <title>Form Exercise</title>
   </head>
   <body>
-    <!-- Enter your code here -->
+    <div class="container">
+      <div class="formdiv  container col-lg-4">
+        <form action="/submit" method="post">
+          <h3>CONTACT FORM</h3>
+          <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Submit your message:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3"></textarea>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" name="newsletter">
+            <label class="form-check-label" for="exampleCheck1">Sign up for the newsletter</label>
+          </div>
+          <br>
+          <div >
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="reset" class="btn btn-secondary">Reset</button>
+          </div>
+          <br>
+          <br>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

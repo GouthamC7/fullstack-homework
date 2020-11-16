@@ -1,0 +1,20 @@
+body {
+  background-color: rgba(0, 0, 0, 0.726);
+}
+
+.formdiv {
+  background-color: white;
+}
+
+h3 {
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 15%;
+}
+button {
+  width: 49%;
+}
+
+label {
+  font-weight: bold;
+}

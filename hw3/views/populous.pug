@@ -1,0 +1,11 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title JavaScript API Exercise
+  link(rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css')
+section.container.border.rounded.bg-light.w-50.mx-auto.mt-5.p-3
+  h2.mt-2.mb-4 Populous Countries
+  ol
+    for item in populousdata
+        li= item.name + " - " + item.population
